@@ -1,0 +1,21 @@
+{
+    "name": "lubed/memcached-cache",
+    "type": "component",
+    "description": "lubed memcached cache",
+    "keywords": [
+        "cache"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lubed\\MemcachedCache\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "ext-memcached": "*",
+        "lubed/caches": "dev-main",
+        "lubed/supports": "dev-main",
+        "lubed/exceptions": "dev-main"
+    }
+}
